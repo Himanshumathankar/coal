@@ -1,0 +1,82 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for the container */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem; /* Larger heading */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    margin-bottom: 10px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Maximum width of the form */
+}
+
+.signup-form input {
+    padding: 10px;
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.signup-btn {
+    background-color: #28a745; /* Green for sign-up */
+}
+
+.google-btn {
+    background-color: #db4437; /* Google red */
+}
+
+.google-signin {
+    text-align: center; /* Center text */
+    margin: 10px 0; /* Space above and below */
+}
+
+.redirect-login {
+    text-align: center; /* Center text */
+}
+
+.password-container {
+    position: relative;
+    margin-bottom: 20px; /* Space below the password field */
+}
+
+.password-container input {
+    padding: 10px 40px 10px 10px; /* Padding for input */
+    width: 100%; /* Full width of the container */
+    border: 1px solid #ccc; /* Add border for styling */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px; /* Space from the right edge */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical position */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #555; /* Change color for visibility */
+}

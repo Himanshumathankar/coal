@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: #e74c3c;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #2980b9;
+}
+
+.google-btn {
+    background-color: #db4437; /* Google red */
+}
+
+.redirect-signup {
+    margin-top: 10px;
+}
+
+.redirect-signup p {
+    color: #34495e;
+}
+
+.password-container {
+    position: relative;
+    margin-bottom: 20px; /* Space below the password field */
+}
+
+.password-container input {
+    width: 100%; /* Full width of the container */
+    padding: 10px 40px 10px 10px; /* Add padding for text and space for the icon */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    border: 1px solid #ccc; /* Add border for styling */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px; /* Space from the right edge */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical position */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #555; /* Change color for visibility */
+}
